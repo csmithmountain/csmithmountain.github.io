@@ -1,0 +1,17 @@
+/* navigation */
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    color: #aca6a6;
+    margin: 0;
+    }
+
+.list-item {
+    width: 50%;
+    text-align: center;
+    padding: 2rem 0;
+}

@@ -1,0 +1,26 @@
+body, html {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+    scroll-behavior: smooth;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}

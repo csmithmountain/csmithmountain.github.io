@@ -1,0 +1,109 @@
+/* index.html */
+.page-footer {
+    padding: 0 0 20rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(119, 117, 116);
+
+    a {
+        text-decoration: none;
+        color: black;
+        width: 100%;
+    }
+
+    .footer-button {
+        width: 100%;
+        height: 4.5rem;
+        background-color: rgb(169, 161, 158);
+        border: none;
+        font-size: larger;
+        font-weight: 600;
+        line-height: .7;
+        font-weight: 400;
+    }
+
+    .footer-button:hover {
+        opacity: .7;
+    }
+
+}
+
+/* contact.html */
+    
+.company-adress {
+    background-color:#FAB131;
+}
+
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #a9a19e;
+    padding-top: 10em;
+    margin-top: 5em;
+    width: 100%;
+    height: 20rem;
+    z-index: 5;
+    background-image: url(/assets/griffin_street_2219.webp);
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-position-x: -109em;
+    background-position-y: -55em;       
+}
+
+.company-adress {
+    background-color: #FAB131;
+    width: 80%;
+    align-self: center;
+    height: 10rem;
+    color: white;
+    padding: 1.5em;
+    transform: translateY(-16em);
+
+
+    h1 {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    h1, p {
+        color: white;
+        margin: 0 auto;
+    }
+
+    p {
+        margin-left: 1.2em;
+    }
+}
+
+.background-color {
+    background-color: #a9a19e;
+}
+
+/* Desktop changes */
+@media screen and (min-width:900px) {
+    .contact-wrapper {
+        position: relative;
+
+        .footer-background {
+            background-color: #a9a19e;
+            filter: brightness(70%);
+            height: 50em;
+        }
+
+        .contact-footer {
+            position: absolute;
+            margin-top: 0;
+
+            background-position-x: -94em;
+            
+            .company-adress {
+                position: absolute;
+                width: 35%;
+                top: 18em;
+                left: 3em;
+            }
+          
+        } 
+    }
+}
